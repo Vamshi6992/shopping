@@ -1,0 +1,27 @@
+.featured{
+    margin: 100px 50px;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        text-align: justify;
+        align-items: center;
+        margin-bottom: 50px;
+
+        h1{
+            flex: 2;
+            text-transform: capitalize;
+        }
+        p{
+            flex: 3;
+            color: #555;
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+    .bottom{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
