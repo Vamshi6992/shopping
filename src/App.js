@@ -4,6 +4,8 @@ import Header from './Header/Header';
 import Footer from "./Footer/Footer";
 import Home from './Pages/Home/Home';
 import "./App.css";
+import Products from './Pages/Products/Products';
+import Product from './Pages/Product/Product';
 
 const Layout=()=>{
     return(
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
                 path:"/",
                 element:<Home/>
             },
+            {
+                path:"/products/:id",
+                element:<Products/>
+            },
+            {
+                path: "/product/:id",
+                element: <Product/>,
+              }
             
         ]
     }
